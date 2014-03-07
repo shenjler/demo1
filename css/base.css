@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; outline:none;}
+a{text-decoration:none;color: #999}
+a:hover{text-decoration:underline;color: #999}
+/*a{text-decoration:none; color:#000;}*/
+a, input[type="reset"], input[type="submit"], input[type="file"], input[type="button"], button{ outline:none;}
+ul,dl{list-style:outside none; margin:0; padding:0; *zoom:1;}
+li, dt ,dd{margin:0; padding:0; list-style:outside none;}
+p{font-size: 14px;word-wrap:break-word; word-break:break-all; white-space:pre-wrap; overflow:hidden}
+img{border:0; vertical-align:middle;}
+input,select,textarea{outline:0; padding:0;}
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{border:none; padding:0;}
+table{border-collapse:collapse;}
+h2{font-weight:normal; font-size:14px;}
+.undis{display:none;}
+.dis{display:block;}
+.marLeft1{margin-left:1em;}
+.indent1{text-indent:1em;}
+.ws0{word-spacing:30px;}
+.ws1{word-spacing:24px;}
+.ws2{word-spacing:18px;}
+.ws3{word-spacing:3px;}
+.ws4{word-spacing:2px;}
+html,body{width:100%; height:100%;}
+body, input, textarea, select{font-family: "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", "\5b8b\4f53", arial; font-size:14px; font-weight:normal;}
+.clear{clear:both; font:0/0 Arial; height: 0; visibility: hidden;}
+
+.wrap{width:960px; margin:0 auto;}
+
+/*顶部*/
+.logo a img{width: 200px;margin-top: 20px;}
+.logo {width:262px;}
+.header{width:100%; height:140px;}
+.header .logo{float:left; width:262px;}
+.header .search{float:left; display:inline; width:658px; margin-left:40px; margin-top:50px;}
+.header .text{color:#333333;float:left; height:40px; line-height:40px; padding:0 6px; border:1px solid #ccc;}
+.header .width420{width:500px;}
+.header .button{float:left; display:inline; width:90px; height:40px; line-height:38px; border:1px solid #0066CC; text-align:center; color:#fff; margin-left:20px; background:#39f; border-radius:5px; cursor:pointer;}
+/* .header .button{float:left; width:90px; height:38px; line-height:38px; text-align:center; margin-left:20px; border:1px solid #0066CC; border-radius:5px; background-color:#3399FF;}
+ */
+/*导航栏*/
+.nav{width:100%; height:36px; line-height:36px; background:#39f; color:#fff;}
+.nav ul{display:inline;}
+.nav .nav_m{float:left; display:inline; margin-left:30px; border-left:1px solid #0066CC; border-right:1px solid #66CCFF;}
+.nav .nav_m li{float:left; width:96px; border-right:1px solid #0066CC; border-left:1px solid #66CCFF;}
+.nav .nav_m li a{display:block; color:#fff; text-align:center;}
+.nav .nav_n{float:right; margin-right:10px; _margin-right:5px;}
+.nav .nav_n a{margin-right:20px; color:#fff;}
+
+.main{width:100%; margin-top:20px;}
+.menu{float:left; width:226px;}
+.menu {
+  /*position: absolute;*/
+  margin: 0;
+  padding: 2px;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+}
+.menu {
+  background-color: #fafafa;
+  border-color: #ddd;
+  color: #444;
+}
+.menu ul{margin-left:30px;padding-bottom: 10px;}
+.menu li{width:150px;}
+.menu li a{display:block; height:36px; line-height:36px; border-bottom:2px solid #fff;}
+.menu li a:hover, .menu li a.cur{border-bottom:2px solid #39f;}

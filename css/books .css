@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding:0; margin:0;}
+a{text-decoration:none;}
+li{list-style-type:none;}
+img{border:0; vertical-align:middle;}
+input,select,textarea{outline:0; padding:0;}
+
+.whole{margin:0 auto; width:960px; height:100%;}
+
+/*页头*/
+.head{float:left; width:960px; height:35px; background-color:#3399FF;}
+.head .border{float:left; width:294px; margin-left:25px; border-left:1px solid #0066CC; border-right:1px solid #66CCFF;}
+.head .border ul li{float:left; width:96px; height:35px; line-height:35px; text-align:center; border-right:1px solid #0066CC; border-left:1px solid #66CCFF;} 
+.head .border ul li a{font:"Microsoft YaHei", arial; font-size:14px; display:block; color:#FFF;}
+.login{float:right; margin-right:35px; height:35px; line-height:35px; text-align:center;}
+.login a{font:"Microsoft YaHei", arial; font-size:14px; display:block; color:#FFF;}
+.login ._login{float:left; width:50px;}
+.logo{float:left; margin:70px 345px 40px;}
+
+/*主体*/
+.main{float:left; width:900px; padding-left:25px;}
+.search{float:left; padding:10px 0px;}
+.search .text{float:left; width:690px; height:40px; border:1px solid #999; color:#888;}
+.search .button_buy{float:left; width:80px; height:38px; line-height:38px; text-align:center; margin-left:20px; border:1px solid #0066CC; border-radius:5px; background-color:#3399FF;}
+.search .button_buy a{font:"Microsoft YaHei", arial; font-size:14px; display:block; color:#FFF;}
+.search .button_sell{float:left; width:80px; height:38px; line-height:38px; text-align:center; margin-left:20px; border:1px solid #0066CC; border-radius:5px; background-color:#3399FF;}
+.search .button_sell a{font:"Microsoft YaHei", arial; font-size:14px; display:block; color:#FFF;}
+.look{float:left; width:900px; height:240px; margin-top:30px;}
+.look .up{float:left; width:112px; height:25px; line-height:25px; text-align:center; border-left:7px solid #3399FF; border-right:7px solid #3399FF; border-top:1px solid #999; font:"Microsoft YaHei", arial; font-size:14px; color:#999;}
+.look ._up{float:left; width:771px; height:25px; border-bottom:1px solid #999;}
+.look .body{float:left; width:875px; height:185px; padding:20px 10px 10px; border:1px solid #999; border:1px solid #999; border-top:hidden;}
+.look .body .img{float:left; width:170px; height:185px;}
+.look .body .img ._img{float:left; margin-left:20px;}
+.look .body .img span{float:left; width:150px; height:20px; line-height:20px; text-align:center; font:"Microsoft YaHei", arial; font-size:14px; color:#999;}
+
+/*页脚*/
+.foot{float:left; width:960px; height:100px;}
